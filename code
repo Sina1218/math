@@ -1,0 +1,67 @@
+
+#%%
+#The geometry
+
+print("square")
+user = int(input("Enter your number:"))
+masahat1 = user * user 
+mohit1 = user * 4
+print("area of Square is:")
+print(masahat1)
+print(" Environment of Square is:")
+print(mohit1)
+#%%
+print("Rectangle")
+user1 = int(input("Enter length:"))
+user2 = int(input("Etner your width:"))
+print("area of Rectangle is:")
+masahat2 = user1 * user2
+print(masahat2)
+print("Environment of Rectangle is:")
+mohit2 = (user1 + user2) * 2
+print(mohit2)
+#%%
+print("Triangle")
+user3 = int(input("Enter your rule:"))
+user4 = int(input("Enter your  rise:"))
+user5 = int(input("enter your Triangle:"))
+masahat3 = (user3 * user4) /2
+print("area of Triangle is:")
+print(masahat3)
+mohit3 = (user3 + user4 + user5)
+print("Environment of Triangle  is:")
+print(mohit3)
+#%%
+print("Trapezoid")
+user6= int(input("Enter your rule big:"))
+user7 = int(input("Enter your  rise small:"))
+user8 = int(input("Enter your  rise:"))
+masahat4 = (user6 + user7)*user8 /2
+print("area of Trapezoid is:")
+print(masahat4)
+mohit4 = user6 *4
+print("Environment of Trapezoid   is:")
+print(mohit4)
+#%%
+print("Rhombus")
+user9= int(input("Enter your rule big:"))
+user10 = int(input("Enter your  rise small:"))
+masahat5 = (user9 * user10)/2
+print("area of Rhombus is:")
+print(masahat5)
+mohit5 = (user9 * 4)
+print("Environment of Rhombus is:")
+print(mohit5)
+#%%
+print("Circle")
+user11= int(input("Enter your Radius:"))
+user12 = int(input("Enter your Qatar :"))
+masahat6 = 3.14*user11*user11
+print("area of Circle is:")
+print(masahat6)
+mohit6 = 3.14 * user12
+print("Environment of Circle is:")
+print(mohit6)
+
+
+# %%
